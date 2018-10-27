@@ -1,0 +1,40 @@
+/* Base Application Styles */
+body {
+  color: #111;
+  background: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+padding:3%;
+text-align: -webkit-center;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: coral;
+  color: #fff;
+}
+.imagefunction{
+  border:2px solid orange;
+  padding: 10px ;
+  margin:2%;
+  min-width: 120px;background: white;border-radius: 4px;outline: none;cursor:pointer;
+}
+#saveresult{
+  display:none;text-decoration: underline;color: orange;font-size: larger;
+}
+.cropper-modal{
+  opacity: 0;
+}
+#display{
+max-width: 800px;max-height: 100px;
+}
